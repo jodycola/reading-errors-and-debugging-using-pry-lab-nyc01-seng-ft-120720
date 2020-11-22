@@ -2,7 +2,7 @@
 require 'pry'
 
 def get_user_input
-  num = gets.chomp
+  gets.chomp
 end
 
 def prompt_user
@@ -14,7 +14,7 @@ end
 def selection(num)
   if num = 1
     puts "YUM YUM MUNCH MUNCH MUNCH"
-  else num = 2
+  elsif num = 2
   binding.pry
     puts  "HAM HAM HAM IN MY TUMMY"
   end
@@ -25,3 +25,4 @@ def runner
   selection(get_user_input)
 end
 
+runner

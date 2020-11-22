@@ -13,9 +13,9 @@ end
 
 def selection(num)
   if num == 1
-    return "YUM YUM MUNCH MUNCH MUNCH"
-  else
-    return  "HAM HAM HAM IN MY TUMMY"
+    puts "YUM YUM MUNCH MUNCH MUNCH"
+  else num == 2
+    puts  "HAM HAM HAM IN MY TUMMY"
   end
   binding.pry
   puts 'hello'

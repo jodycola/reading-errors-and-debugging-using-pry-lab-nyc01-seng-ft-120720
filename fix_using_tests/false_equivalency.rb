@@ -24,6 +24,8 @@ def runner
   get_user_input
   prompt_user
   selection(get_user_input)
+  binding.pry
+  puts 'hi'
 end
 
 runner
